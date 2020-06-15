@@ -148,6 +148,11 @@ transform: translate(-50%, -50%);
     margin-left: auto;
   }
 
+  .footer__tel:first-child {
+    margin-bottom: 0;
+    margin-top: 2px;
+  }
+
   .footer__email {
     margin-right: 0;
   }
