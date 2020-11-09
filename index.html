@@ -19,6 +19,7 @@
         <br>
         <span class="header__item header__2nd">Смотри главное</span>
       </h1>
+      <button class="play-video">Play</button>
       <div class="footer">
         <img class="footer__logo" src="moxie-logo.svg" alt="logo">
         <address class="footer__contacts">
@@ -31,6 +32,11 @@
       </div>
     </div>
   </section>
+  <div class="popup visually-hidden">
+    <span class="close">×</span>
+    <iframe src="https://player.vimeo.com/video/436752564" style="position:absolute;top:0;left:0;right:0;bottom:0;width:100%;height:100%;max-width:1200px;margin:0 auto;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  </div>
+  <script src="https://player.vimeo.com/api/player.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
