@@ -11,7 +11,7 @@ const iFrame = document.querySelector('.popup iframe');
 playBtn.addEventListener('click', () => {
   popup.classList.remove('visually-hidden');
   wrapper.classList.add('wrapper--overlay');
-  iFrame.setAttribute('src', 'https://player.vimeo.com/video/436752564');
+  iFrame.setAttribute('src', 'https://player.vimeo.com/video/436752564?autoplay=1');
 })
 
 close.addEventListener('click', () => {
